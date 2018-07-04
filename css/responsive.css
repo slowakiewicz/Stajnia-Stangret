@@ -1,0 +1,102 @@
+@media all and (max-width:920px) {
+    #contactform {
+        padding-top: 0;
+    }
+    #contactform .blockrespo920 {
+        display: block;
+        margin: 0 auto;
+        width: 16rem;
+    }
+    #contactform .message {
+        transform: translateY(0);
+    }
+    #contactform #sendbutton {
+        transform: translateY(-51%);
+    }
+}
+
+@media all and (max-width:683px) {
+    #workinprogress {
+        padding-top: 0;
+    }
+    #contactform {
+        padding-top: 0;
+    }
+    #contactform .blockrespo920 {
+        display: block;
+        margin: 0 auto;
+        width: 16rem;
+    }
+    #contactform .message {
+        transform: translateY(0);
+    }
+}
+
+@media all and (max-width:525px) {
+    #contactform #sendbutton {
+        transform: translateY(0);
+    }
+}
+
+@media all and (max-width:545px) {
+
+    #contactform .blockrespo {
+        display: block;
+    }
+    #workinprogress {
+        padding-bottom: 2rem;
+    }
+    #contactform .message {
+        width: 15rem;
+        margin: 0.5rem 0.25rem;
+        height: 8rem;
+        margin: 0 auto;
+    }
+    #contactform #sendbutton {
+        margin: 0 auto;
+        transform: translateY(25%);
+    }
+    #companyname {
+        padding-bottom: 1.7rem;
+    }
+    #socialmedia {
+        bottom: 3rem;
+    }
+}
+
+@media all and (max-height:925px) {
+    #fullsite {
+        height: 950px;
+        background-image: url(../img/tlo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #socialmedia {
+        position: relative;
+        padding-top: 2rem;
+    }
+    #footbot {
+        position: relative;
+        text-align: center;
+        bottom: 0;
+    }
+}
+
+@media all and (max-width:362px) {
+    #companyname {
+        padding: 1.2rem 0;
+    }
+    #socialmedia {
+        padding-top: 2rem;
+    }
+}
+
+@media all and (max-width:345px) {
+    #footbot {
+        position: relative;
+        bottom: 0.5rem;
+        text-align: center;
+
+    }
+
+}

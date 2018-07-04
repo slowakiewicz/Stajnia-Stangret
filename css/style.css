@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.upper {
+    text-transform: uppercase;
+}
+.opensans {
+    font-family: "Open Sans", sans-serif;
+}
+#mainheading {
+    font-weight: 300;
+    color: #00ccc2;
+    letter-spacing: 0.25rem;
+}
+.thickspan {
+    font-weight: 300;
+}
+.whitetext {
+    color: #fff;
+}
+.extrabold {
+    font-weight: 800;
+}
+.boldspan {
+    font-weight: 600;
+}
+#fullsite {
+    height: 100vh;
+    background-image: url(../img/tlo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.centeredtext {
+    text-align: center;
+}
+#contactform {
+    padding: 4rem 0;
+}
+#contactform .writeus {
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0 0.25rem;
+}
+.blockelement {
+    display: block;
+}
+.twohalfes {
+    display: inline-block;
+}
+
+/* HEADER */
+#companyname {
+	padding: 4rem;
+    letter-spacing: 0.25rem;
+}
+
+/* WORKINPROGRESS */
+#workinprogress .paddingp {
+    padding: 0 1rem;
+}
+#workinprogress {
+	padding: 4rem 0 5rem 0;
+}
+#workinprogress #mainheading {
+	font-size: 4rem;
+}
+#contactform #sendbutton {
+    height: 4.8rem;
+    width: 6rem;
+    transform: translatey(-26.7%);
+    margin: 0.5rem 0.25rem;
+    background-color: #00ccc2;
+    font-size: 1rem;
+}
+#contactform input, textarea, #sendbutton {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.smallinput {
+    height: 1.5rem;
+    width: 15rem;
+    padding: 0.3rem;
+    margin: 0.5rem 0.25rem;
+}
+.message {
+    height: 4.12rem;
+    width: 25rem;
+    padding: 0.3rem;
+    margin: 0.5rem 0.25rem;
+    transform: translateY(26.5%);
+    resize: none;
+}
+.icons {
+    height: 3rem;
+    width: 3rem;
+    background-color: #00ccc2;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 0.6rem;
+}
+#socialmedia {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5rem;
+}
+#socialmedia .facebook, #socialmedia .map {
+    margin-top: 1.5rem;
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+    color: black;
+}
+#socialmedia .twohalfes .leftside {
+    text-align: left;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding-left: 0.6rem;
+}
+/*FOOTER*/
+.footertext {
+    font-size: 0.7rem;
+}
+#footbot {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+}
